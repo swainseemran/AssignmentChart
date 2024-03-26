@@ -6,12 +6,20 @@ import { Oscillators } from './components/Oscillators'
 
 function App(){
   return (
-    <>
-      <Summary />
-      <SupportResistence />
-      <MovingAverages />
-      <Oscillators />
-    </>
+<div className="flex flex-wrap justify-center">
+      <div className="w-full md:w-1/2 p-4">
+        <Summary />
+      </div>
+      <div className="w-full md:w-1/2 p-4">
+        <MovingAverages />
+      </div>
+      <div className="w-full md:w-1/2 p-4">
+        <SupportResistence />
+      </div>
+      <div className="w-full md:w-1/2 p-4">
+        <Oscillators />
+      </div>
+    </div>
   )
 }
 

@@ -21,19 +21,17 @@ export const Summary = () => {
 
   const options = {
     scales: {
-      yAxes: [
-        {
-          ticks: {
-            beginAtZero: true,
-          },
+      yAxes: [{
+        ticks: {
+          beginAtZero: true,
         },
-      ],
+      }],
     },
   };
   
 
   return (
-    <div>
+    <div className='w-full'>
       <Bar data={data} options={options} />
     </div>
   );
