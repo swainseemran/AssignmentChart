@@ -21,11 +21,9 @@ export const MovingAverages = () => {
 
   const options = {
     scales: {
-      yAxes: [{
-        ticks: {
-          beginAtZero: true,
-        },
-      }],
+      y: {
+        beginAtZero: true,
+      },
     },
   };
   

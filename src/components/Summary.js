@@ -21,11 +21,9 @@ export const Summary = () => {
 
   const options = {
     scales: {
-      yAxes: [{
-        ticks: {
-          beginAtZero: true,
-        },
-      }],
+      y: {
+        beginAtZero: true,
+      },
     },
   };
   
